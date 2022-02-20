@@ -12,7 +12,13 @@ export default function Home() {
         <title>Login | Dashboard</title>
         </Head>
 
-        <Flex>
+        <Flex direction="column" 
+        justifyContent="center" 
+        alignItems="center"
+        width="100vw"
+        height="100vh"
+        bgGradient="linear(to-br, #fdfbfb, #ebedee)"
+        >
           <Text>
             Dashboard
           </Text>
